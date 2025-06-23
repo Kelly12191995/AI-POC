@@ -1,0 +1,26 @@
+# For Bell users , install the following package in Command tho this proxy  
+#cd ....streamlit_app 
+#pip install --proxy=fastweb.int.bell.ca -r requirements.txt
+
+streamlit
+pandas
+openpyxl
+streamlit-aggrid
+google-cloud-aiplatform
+google-generativeai
+pdfplumber
+pdfminer.six
+python-dateutil
+
+# For email sending (if using Outlook/SMTP)
+pywin32
+
+# If you use any other Google API features
+google-auth
+
+#gcloud auth application-default login 
+
+# If you use any other file types (e.g., PDF parsing)
+fitz
+
+# If you use any other custom or helper packages, add them here
