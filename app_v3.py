@@ -256,7 +256,7 @@ with col2:
     _Send feedback directly to dev team_
     """)
 
-
+#section1
 #----------------------------------------------------------------------------------------------
 #---------------------------------MAIN PAGE IN THE MIDDLE--------------------------------------
 #----------------------------------------------------------------------------------------------
@@ -439,6 +439,8 @@ with col1:
         st.info(f"You are using gemini-2.0-flash-001. Current token count in chat history: {tokens}")
 
 
+
+#section3
 #---------------------------------------------Update your data for analysis ----------------------------
 
     if st.session_state.get("current_report") == "DIY":
@@ -574,6 +576,8 @@ with col1:
             # Display token count below chat box
             st.info(f"You are using gemini-2.0-flash-001. Current token count in chat history: {tokens}")
 
+
+#Section 3
 #--------------------------------------analysis level of one datasets--------------------------------------------------------
     if st.session_state.get("current_report") in ["Digital Sales Daily Raw", "Registration Tokenized", "Digital Easy Index"]:
         st.write("Current Report:", st.session_state.get("current_report"))
